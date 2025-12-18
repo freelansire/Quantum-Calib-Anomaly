@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Problem
+### 1. Problem
 
 Superconducting and other quantum processors require frequent calibration to maintain acceptable coherence times and gate fidelities. Each calibration cycle exposes a collection of hardware parameters—such as T₁, T₂, single- and two-qubit gate error rates, and readout errors—that evolve over time due to noise, temperature fluctuations, crosstalk, and hardware ageing.
 
@@ -20,9 +20,9 @@ This repository provides a small, reproducible prototype to explore that questio
 
 ---
 
-## 2. Method
+### 2. Method
 
-### 2.1 Data: synthetic and real calibration streams
+#### 2.1 Data: synthetic and real calibration streams
 
 The project treats quantum device calibration as a **multivariate time series**. Each timestamp is a vector of calibration parameters across multiple qubits.
 
@@ -45,7 +45,7 @@ Both sources use the same downstream anomaly detection and visualisation pipelin
 
 ---
 
-### 2.2 Online anomaly detector (Mahalanobis)
+#### 2.2 Online anomaly detector (Mahalanobis)
 
 The main detector is implemented in `src/online_model.py` and is designed to be:
 
@@ -64,7 +64,7 @@ A point is flagged as anomalous if its Mahalanobis distance exceeds this adaptiv
 
 ---
 
-### 2.3 Baseline detectors
+#### 2.3 Baseline detectors
 
 To contextualise the behaviour of the online multivariate model, we implement two simple baselines on a selected scalar metric (e.g., `T1_q0`):
 
@@ -83,31 +83,31 @@ These baselines represent typical “rule-of-thumb” monitoring strategies and 
 
 ---
 
-## 3. Demo
+### 3. Demo
 
 The main entry point for interactive exploration is the **Streamlit app** `src/app.py`, which provides an end-to-end demonstration of the anomaly detection pipeline.
 
 
-### Running the demo
+#### Running the demo
 
-1. **Install dependencies**
+ **Install dependencies**
 
 ```bash
 git clone https://github.com/freelansire/Quantum-Calib-Anomaly.git
 cd Quantum-Calib-Anomaly
 
 pip install -r requirements.txt
+```
 
-
-## How to Cite
+### How to Cite
 
 If you use **Online Anomaly Detection in Quantum Device Calibration Streams** in research, teaching, or derivative work, please cite the repository.
 
-## Suggested citation (APA-style)
+#### Suggested citation (APA-style)
 
 Orokpo, S.M.(2025). Online Anomaly Detection in Quantum Device Calibration Streams   (Version 0.1.0) [Software]. GitHub. https://github.com/freelansire/Quantum-Calib-Anomaly
   
-## BibTeX
+#### BibTeX
 
 ```bibtex
 @software{orokpo_quantum_calibration_streams_2025,
@@ -116,3 +116,4 @@ Orokpo, S.M.(2025). Online Anomaly Detection in Quantum Device Calibration Strea
   year         = {2025},
   version      = {1.0.1},
   url          = {https://github.com/freelansire/Quantum-Calib-Anomaly},
+```
