@@ -82,7 +82,7 @@ def main():
 
         st.sidebar.markdown(
     """
-    👤 <b>Samuel Moses</b><br>
+    👤
     <a href="https://github.com/freelansire/Quantum-Calib-Anomaly" target="_blank" style="text-decoration:none;">GitHub</a> <a href="https://freelansire.com" target="_blank" style="text-decoration:none;">Website</a>
     """,
     unsafe_allow_html=True
