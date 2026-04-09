@@ -98,9 +98,3 @@ cd Quantum-Calib-Anomaly
 
 pip install -r requirements.txt
 ```
-
-  title        = {Online Anomaly Detection in Quantum Device Calibration Streams},
-  year         = {2025},
-  version      = {1.0.1},
-  url          = {https://github.com/freelansire/Quantum-Calib-Anomaly},
-```
