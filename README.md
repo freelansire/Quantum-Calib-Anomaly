@@ -99,19 +99,6 @@ cd Quantum-Calib-Anomaly
 pip install -r requirements.txt
 ```
 
-### How to Cite
-
-If you use **Online Anomaly Detection in Quantum Device Calibration Streams** in research, teaching, or derivative work, please cite the repository.
-
-#### Suggested citation (APA-style)
-
-Orokpo, S.M.(2025). Online Anomaly Detection in Quantum Device Calibration Streams   (Version 0.1.0) [Software]. GitHub. https://github.com/freelansire/Quantum-Calib-Anomaly
-  
-#### BibTeX
-
-```bibtex
-@software{orokpo_quantum_calibration_streams_2025,
-  author       = {Samuel Moses Orokpo},
   title        = {Online Anomaly Detection in Quantum Device Calibration Streams},
   year         = {2025},
   version      = {1.0.1},
