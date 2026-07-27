@@ -10,7 +10,7 @@ In practice, these calibration parameters are often:
 
 - monitored one metric at a time,
 - inspected using static tolerance bands (e.g., “alert if T₁ < threshold”),
-- visualised via dashboards that provide limited support for multivariate analysis or adaptive behaviour.
+- visualised via dashboards that provide limited supports for multivariate analysis or adaptive behaviour.
 
 This raises a simple question:
 
