@@ -24,7 +24,7 @@ This repository provides a small, reproducible prototype to explore that questio
 
 #### 2.1 Data: synthetic and real calibration streams
 
-The project treats quantum device calibration as a **multivariate time series**. Each timestamp is a vector of calibration parameters across multiple qubits.
+The project treats quantum device calibration/s as a **multivariate time series**. Each timestamp is a vector of calibration parameters across multiple qubits.
 
 Two data sources are supported:
 
