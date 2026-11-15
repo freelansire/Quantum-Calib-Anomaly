@@ -2,7 +2,7 @@
 
 ---
 
-### 1. Problem
+### 1. Problem.
 
 Superconducting and other quantum processors require frequent calibration to maintain acceptable coherence times and gate fidelities. Each calibration cycle exposes a collection of hardware parameters—such as T₁, T₂, single- and two-qubit gate error rates, and readout errors—that evolve over time due to noise, temperature fluctuations, crosstalk, and hardware ageing.
 
