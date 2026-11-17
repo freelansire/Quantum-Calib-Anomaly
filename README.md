@@ -79,7 +79,7 @@ To contextualise the behaviour of the online multivariate model, we implement tw
 These baselines represent typical “rule-of-thumb” monitoring strategies and serve as comparison points for the online Mahalanobis detector in terms of:
 
 - how often alerts are raised (false alarm characteristics),
-- whether certain anomalies are detected earlier or exclusively by one approach.
+- whether certain anomalies are detected earlier or exclusively by one approach
 
 ---
 
